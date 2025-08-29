@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 65px 50px 93px;
+  padding: 95px 50px 93px;
 }
 
 .header__menu-list {
@@ -50,8 +50,7 @@
   color: rgba(0, 0, 0, 1);
   font-family: Raleway;
   font-weight: 400;
-  font-size: 18px; 
-  font-style: normal;
+  font-size: 18px;
   font-style: Regular;
   line-height: 24.3px;
   letter-spacing: 0%;
@@ -219,7 +218,7 @@
   
 }
 
-.card__text{
+.card__text {
   z-index: 1;
   color: rgba(255, 255, 255, 1);
   font-family: Raleway, sans-serif;
