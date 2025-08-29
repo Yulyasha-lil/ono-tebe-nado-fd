@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px 93px;
+  padding: 95px 50px 92px;
 }
 
 .header__menu-list {
@@ -18,10 +18,9 @@
 .header__link {
   border-bottom: 1px solid;
   color: rgba(0, 0, 0, 1);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 100%;
   letter-spacing: 0%;
   text-decoration: none;
@@ -48,10 +47,10 @@
   gap: 2px;
   max-width: 240px;
   color: rgba(0, 0, 0, 1);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
+  font-style: normal;
   line-height: 24.3px;
   letter-spacing: 0%;
   text-underline-offset: 3px;
@@ -60,7 +59,7 @@
 
 .cover {
   position: relative;
-  max-height: 757px;
+  min-height: 757px;
   padding: 165px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -87,7 +86,6 @@
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 100px;
-  font-style: Bold;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -126,7 +124,6 @@
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
-  font-style: Regular;
   line-height: 28px;
   letter-spacing: 0%;
   text-transform: uppercase;
@@ -134,15 +131,15 @@
 }
 
 .bet-button {
-  border: 2px solid rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   color: rgba(255, 255, 255, 1);
   font-weight: 500;
   font-size: 22px;
-  font-style: Medium;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
   white-space: nowrap;
 }
 
@@ -157,7 +154,6 @@
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
-  font-style: Bold;
   text-transform: uppercase;
 }
 
@@ -175,6 +171,7 @@
 
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -183,7 +180,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 48px 40px;
+  padding: 50px 40px 48px;
 }
 
 .card_type {
@@ -211,7 +208,6 @@
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
-  font-style: Bold;
   text-decoration: underline;
   text-decoration-style: solid;
   text-transform: uppercase;
@@ -224,7 +220,6 @@
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
-  font-style: Regular;
   line-height: 120%;
   letter-spacing: 0%;
 }
@@ -236,13 +231,11 @@
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
-  font-style: Regular;
 }
 
 .about {
   margin: 120px 24px 0;
-  margin-top: 120px;
-  padding: 35px 5px 47px 0;
+  padding: 37px 5px 47px 0;
 }
 
 .about__column {
@@ -279,7 +272,6 @@
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
-  font-style: Bold;
   text-transform: uppercase;
 }
 
@@ -292,14 +284,13 @@
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
-  font-style: Regular;
   line-height: 24px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 136px;
+  margin-top: 132px;
   padding: 0 50px 82px;
 }
 
@@ -322,10 +313,9 @@
 .footer__menu-link {
   border-bottom: 1px solid;
   color: rgba(0, 0, 0, 1);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   text-decoration: none;
 }
 
